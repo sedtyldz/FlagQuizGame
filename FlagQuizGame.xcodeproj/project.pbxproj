@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3F555F32C9B10400039D540 /* FlagQuizGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F555F22C9B10400039D540 /* FlagQuizGameApp.swift */; };
+		A3F555F72C9B10420039D540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F555F62C9B10420039D540 /* Assets.xcassets */; };
+		A3F555FA2C9B10420039D540 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F555F92C9B10420039D540 /* Preview Assets.xcassets */; };
+		A3F556042C9B10420039D540 /* FlagQuizGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F556032C9B10420039D540 /* FlagQuizGameTests.swift */; };
+		A3F5560E2C9B10420039D540 /* FlagQuizGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F5560D2C9B10420039D540 /* FlagQuizGameUITests.swift */; };
+		A3F556102C9B10420039D540 /* FlagQuizGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F5560F2C9B10420039D540 /* FlagQuizGameUITestsLaunchTests.swift */; };
+		A3F5561D2C9B107D0039D540 /* QuestionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F5561C2C9B107D0039D540 /* QuestionPage.swift */; };
+		A3F5561F2C9B10AD0039D540 /* GameResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F5561E2C9B10AD0039D540 /* GameResult.swift */; };
+		A3F556212C9B10D50039D540 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F556202C9B10D50039D540 /* MainPage.swift */; };
+		A3F556232C9B10E90039D540 /* RulesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F556222C9B10E90039D540 /* RulesPage.swift */; };
+		A3F556282C9B120E0039D540 /* countries.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3F556272C9B120E0039D540 /* countries.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3F556002C9B10420039D540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F555E72C9B10400039D540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3F555EE2C9B10400039D540;
+			remoteInfo = FlagQuizGame;
+		};
+		A3F5560A2C9B10420039D540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F555E72C9B10400039D540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3F555EE2C9B10400039D540;
+			remoteInfo = FlagQuizGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3F555EF2C9B10400039D540 /* FlagQuizGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlagQuizGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F555F22C9B10400039D540 /* FlagQuizGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagQuizGameApp.swift; sourceTree = "<group>"; };
+		A3F555F62C9B10420039D540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3F555F92C9B10420039D540 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3F555FF2C9B10420039D540 /* FlagQuizGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlagQuizGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F556032C9B10420039D540 /* FlagQuizGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagQuizGameTests.swift; sourceTree = "<group>"; };
+		A3F556092C9B10420039D540 /* FlagQuizGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlagQuizGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F5560D2C9B10420039D540 /* FlagQuizGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagQuizGameUITests.swift; sourceTree = "<group>"; };
+		A3F5560F2C9B10420039D540 /* FlagQuizGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagQuizGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A3F5561C2C9B107D0039D540 /* QuestionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPage.swift; sourceTree = "<group>"; };
+		A3F5561E2C9B10AD0039D540 /* GameResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResult.swift; sourceTree = "<group>"; };
+		A3F556202C9B10D50039D540 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		A3F556222C9B10E90039D540 /* RulesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesPage.swift; sourceTree = "<group>"; };
+		A3F556272C9B120E0039D540 /* countries.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = countries.txt; path = ../../FlagQuizThings/countries.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3F555EC2C9B10400039D540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F555FC2C9B10420039D540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F556062C9B10420039D540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3F555E62C9B10400039D540 = {
+			isa = PBXGroup;
+			children = (
+				A3F555F12C9B10400039D540 /* FlagQuizGame */,
+				A3F556022C9B10420039D540 /* FlagQuizGameTests */,
+				A3F5560C2C9B10420039D540 /* FlagQuizGameUITests */,
+				A3F555F02C9B10400039D540 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3F555F02C9B10400039D540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3F555EF2C9B10400039D540 /* FlagQuizGame.app */,
+				A3F555FF2C9B10420039D540 /* FlagQuizGameTests.xctest */,
+				A3F556092C9B10420039D540 /* FlagQuizGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3F555F12C9B10400039D540 /* FlagQuizGame */ = {
+			isa = PBXGroup;
+			children = (
+				A3F556272C9B120E0039D540 /* countries.txt */,
+				A3F556202C9B10D50039D540 /* MainPage.swift */,
+				A3F555F22C9B10400039D540 /* FlagQuizGameApp.swift */,
+				A3F556222C9B10E90039D540 /* RulesPage.swift */,
+				A3F5561E2C9B10AD0039D540 /* GameResult.swift */,
+				A3F5561C2C9B107D0039D540 /* QuestionPage.swift */,
+				A3F555F62C9B10420039D540 /* Assets.xcassets */,
+				A3F555F82C9B10420039D540 /* Preview Content */,
+			);
+			path = FlagQuizGame;
+			sourceTree = "<group>";
+		};
+		A3F555F82C9B10420039D540 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A3F555F92C9B10420039D540 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3F556022C9B10420039D540 /* FlagQuizGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3F556032C9B10420039D540 /* FlagQuizGameTests.swift */,
+			);
+			path = FlagQuizGameTests;
+			sourceTree = "<group>";
+		};
+		A3F5560C2C9B10420039D540 /* FlagQuizGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3F5560D2C9B10420039D540 /* FlagQuizGameUITests.swift */,
+				A3F5560F2C9B10420039D540 /* FlagQuizGameUITestsLaunchTests.swift */,
+			);
+			path = FlagQuizGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3F555EE2C9B10400039D540 /* FlagQuizGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F556132C9B10420039D540 /* Build configuration list for PBXNativeTarget "FlagQuizGame" */;
+			buildPhases = (
+				A3F555EB2C9B10400039D540 /* Sources */,
+				A3F555EC2C9B10400039D540 /* Frameworks */,
+				A3F555ED2C9B10400039D540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlagQuizGame;
+			productName = FlagQuizGame;
+			productReference = A3F555EF2C9B10400039D540 /* FlagQuizGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3F555FE2C9B10420039D540 /* FlagQuizGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F556162C9B10420039D540 /* Build configuration list for PBXNativeTarget "FlagQuizGameTests" */;
+			buildPhases = (
+				A3F555FB2C9B10420039D540 /* Sources */,
+				A3F555FC2C9B10420039D540 /* Frameworks */,
+				A3F555FD2C9B10420039D540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3F556012C9B10420039D540 /* PBXTargetDependency */,
+			);
+			name = FlagQuizGameTests;
+			productName = FlagQuizGameTests;
+			productReference = A3F555FF2C9B10420039D540 /* FlagQuizGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3F556082C9B10420039D540 /* FlagQuizGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F556192C9B10420039D540 /* Build configuration list for PBXNativeTarget "FlagQuizGameUITests" */;
+			buildPhases = (
+				A3F556052C9B10420039D540 /* Sources */,
+				A3F556062C9B10420039D540 /* Frameworks */,
+				A3F556072C9B10420039D540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3F5560B2C9B10420039D540 /* PBXTargetDependency */,
+			);
+			name = FlagQuizGameUITests;
+			productName = FlagQuizGameUITests;
+			productReference = A3F556092C9B10420039D540 /* FlagQuizGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3F555E72C9B10400039D540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A3F555EE2C9B10400039D540 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A3F555FE2C9B10420039D540 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A3F555EE2C9B10400039D540;
+					};
+					A3F556082C9B10420039D540 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A3F555EE2C9B10400039D540;
+					};
+				};
+			};
+			buildConfigurationList = A3F555EA2C9B10400039D540 /* Build configuration list for PBXProject "FlagQuizGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3F555E62C9B10400039D540;
+			productRefGroup = A3F555F02C9B10400039D540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3F555EE2C9B10400039D540 /* FlagQuizGame */,
+				A3F555FE2C9B10420039D540 /* FlagQuizGameTests */,
+				A3F556082C9B10420039D540 /* FlagQuizGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3F555ED2C9B10400039D540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F556282C9B120E0039D540 /* countries.txt in Resources */,
+				A3F555FA2C9B10420039D540 /* Preview Assets.xcassets in Resources */,
+				A3F555F72C9B10420039D540 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F555FD2C9B10420039D540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F556072C9B10420039D540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3F555EB2C9B10400039D540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F556232C9B10E90039D540 /* RulesPage.swift in Sources */,
+				A3F556212C9B10D50039D540 /* MainPage.swift in Sources */,
+				A3F5561F2C9B10AD0039D540 /* GameResult.swift in Sources */,
+				A3F5561D2C9B107D0039D540 /* QuestionPage.swift in Sources */,
+				A3F555F32C9B10400039D540 /* FlagQuizGameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F555FB2C9B10420039D540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F556042C9B10420039D540 /* FlagQuizGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F556052C9B10420039D540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F5560E2C9B10420039D540 /* FlagQuizGameUITests.swift in Sources */,
+				A3F556102C9B10420039D540 /* FlagQuizGameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3F556012C9B10420039D540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3F555EE2C9B10400039D540 /* FlagQuizGame */;
+			targetProxy = A3F556002C9B10420039D540 /* PBXContainerItemProxy */;
+		};
+		A3F5560B2C9B10420039D540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3F555EE2C9B10400039D540 /* FlagQuizGame */;
+			targetProxy = A3F5560A2C9B10420039D540 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3F556112C9B10420039D540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3F556122C9B10420039D540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3F556142C9B10420039D540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlagQuizGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 686L4TXLDH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SedatYildiz.FlagQuizGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3F556152C9B10420039D540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlagQuizGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 686L4TXLDH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SedatYildiz.FlagQuizGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3F556172C9B10420039D540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 686L4TXLDH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SedatYildiz.FlagQuizGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlagQuizGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlagQuizGame";
+			};
+			name = Debug;
+		};
+		A3F556182C9B10420039D540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 686L4TXLDH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SedatYildiz.FlagQuizGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlagQuizGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlagQuizGame";
+			};
+			name = Release;
+		};
+		A3F5561A2C9B10420039D540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 686L4TXLDH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SedatYildiz.FlagQuizGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlagQuizGame;
+			};
+			name = Debug;
+		};
+		A3F5561B2C9B10420039D540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 686L4TXLDH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SedatYildiz.FlagQuizGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlagQuizGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3F555EA2C9B10400039D540 /* Build configuration list for PBXProject "FlagQuizGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F556112C9B10420039D540 /* Debug */,
+				A3F556122C9B10420039D540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F556132C9B10420039D540 /* Build configuration list for PBXNativeTarget "FlagQuizGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F556142C9B10420039D540 /* Debug */,
+				A3F556152C9B10420039D540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F556162C9B10420039D540 /* Build configuration list for PBXNativeTarget "FlagQuizGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F556172C9B10420039D540 /* Debug */,
+				A3F556182C9B10420039D540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F556192C9B10420039D540 /* Build configuration list for PBXNativeTarget "FlagQuizGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F5561A2C9B10420039D540 /* Debug */,
+				A3F5561B2C9B10420039D540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3F555E72C9B10400039D540 /* Project object */;
+}
