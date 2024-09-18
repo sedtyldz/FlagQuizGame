@@ -30,7 +30,7 @@ struct MainPage: View {
                 
                 VStack{
                     
-                    Text("FlagQuiz")
+                    Text("FlagQuizGame")
                         .font(.largeTitle)
                         .foregroundColor(.purple)
                         .padding()
